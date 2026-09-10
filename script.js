@@ -37,7 +37,7 @@ chatForm.addEventListener('submit', async (e) => {
     chatBox.scrollTop = chatBox.scrollHeight;
 
     try {
-        const response = await fetch('http://localhost:5000/api/chat', {
+        const response = await fetch('https://kewa-ai-h07t.onrender.com', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
