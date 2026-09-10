@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kewa AI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <div class="logo">K</div>
+                <span class="brand-title">Kewa <span class="ai-badge">AI</span></span>
+            </div>
+            <button class="new-chat-btn">+ New Chat</button>
+            <div class="nav-links">
+                <a href="#" class="nav-item active">Home</a>
+                <a href="#" class="nav-item">History</a>
+                <a href="#" class="nav-item">Saved Chats</a>
+            </div>
+            <div class="recent-chats">
+                <p class="section-title">Recent Chats</p>
+                <div class="chat-history-item">Website project ideas</div>
+                <div class="chat-history-item">Explain JavaScript</div>
+            </div>
+            <div class="sidebar-footer">
+                <div class="nav-item">Settings</div>
+                <div class="user-profile">
+                    <span class="avatar">D</span>
+                    <span class="username">Deepak</span>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Main Chat Area -->
+        <main class="main-content">
+            <header class="top-nav">
+                <h1>Kewa AI</h1>
+                <p>Your intelligent assistant</p>
+            </header>
+            <div id="chat-box" class="chat-box">
+                <div class="welcome-screen">
+                    <h2>What can I <span>help you</span> with?</h2>
+                    <div class="suggestion-grid">
+                        <div class="suggestion-card">Get project ideas</div>
+                        <div class="suggestion-card">Learn something</div>
+                        <div class="suggestion-card">Write content</div>
+                        <div class="suggestion-card">Write code</div>
+                    </div>
+                </div>
+            </div>
+            <form id="chat-form" class="chat-input-area">
+                <input type="text" id="user-input" placeholder="Type your message here..." required autocomplete="off">
+                <button type="submit">Send</button>
+            </form>
+        </main>
+    </div>
+    <script type="module" src="script.js"></script>
+</body>
+</html>
